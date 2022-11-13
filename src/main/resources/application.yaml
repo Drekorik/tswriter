@@ -1,0 +1,8 @@
+logging:
+  pattern:
+    console: "%clr(%date{yyyy-MM-dd HH:mm:ss.SSS, UTC}){faint} %clr(%5level)
+    %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15thread]){faint} %clr(%-40.40logger{39}){cyan}
+    [%-30.-30method:%4line] %clr(:){faint} %message%n%wEx"
+  level:
+    root: error
+    org.drekorik: error

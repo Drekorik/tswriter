@@ -1,0 +1,33 @@
+{
+  "connection": {
+    "database": "database-name",
+    "table": "tmp-test"
+  },
+  "data": [
+    {
+      "measureName": "measureName1",
+      "dimensions": [
+        {
+          "name": "dim1",
+          "value": "dimvalue1"
+        },
+        {
+          "name": "dim2",
+          "value": "dimvalue2"
+        }
+      ],
+      "values": [
+        {
+          "name": "value1",
+          "type": "VARCHAR",
+          "value": "valuevalue1"
+        },
+        {
+          "name": "value2",
+          "type": "VARCHAR",
+          "value": "valuevalue2"
+        }
+      ]
+    }
+  ]
+}
